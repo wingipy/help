@@ -7,31 +7,31 @@
 //  sumar(23,25);
 //  sumar(13,8);
 
-// function Datos(nombre,apellido,edad,dni){
+function Datos(nombre,apellido,edad,dni){
 
-//     let Dato = [nombre , apellido , edad , dni];
+    let Dato = [nombre , apellido , edad , dni];
 
-//     document.write("Sus datos son: "+ Dato);
-// }
-// Datos("Claudia"," Guadalupe"," 20"," 72486626");
-// document.write("<br>")
-// Datos("Ronaldo"," Chavez"," 23"," 010896754");
+    document.write("Sus datos son: "+ Dato);
+}
+Datos("Claudia"," Guadalupe"," 20"," 72486626");
+document.write("<br>")
+Datos("Ronaldo"," Chavez"," 23"," 010896754");
 
-// function Edad(time){
-//     let limite= prompt("Ingresa tu edad: ");
-//     if (limite>=18){
-//         if (time > 2 && time<7){
-//             document.write("Eres mayor de edad, welcome");
-//         }else{
-//             document.write("Pagas noma papi, pero pasas");
-//         }
-//     }else{
-//         document.write("Eres menor de edad, no pasas");
+function Edad(time){
+    let limite= prompt("Ingresa tu edad: ");
+    if (limite>=18){
+        if (time > 2 && time<7){
+            document.write("Eres mayor de edad, welcome");
+        }else{
+            document.write("Pagas noma papi, pero pasas");
+        }
+    }else{
+        document.write("Eres menor de edad, no pasas");
 
-//     }
-// }
-// Edad(prompt("Ingresa hora:"));
-// document.write("<br>");
+    }
+}
+Edad(prompt("Ingresa hora:"));
+document.write("<br>");
 
 // function Matematica(num1,num2){
 

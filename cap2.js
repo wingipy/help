@@ -22,7 +22,7 @@ texto = `Su nombre es ${nombres} <br>
 document.write(texto);
 
  let num = 20;
-
+ // El if pregunta uno por uno para ir ejecutandose
  if (num < 30){
      num++;
      num++;
@@ -32,7 +32,7 @@ document.write(texto);
      document.write("No cumple");
  }
 
-    //MUESTRA DE WHILE
+    //MUESTRA DE WHILE.: sigue preguntando hasta que la condición sea falsa
 while(num < 30){
     num++;
     document.write("Este sigue ejecutando <br>" + num)
@@ -41,4 +41,4 @@ while(num < 30){
 do{
      document.write(num);
      num++;
- }while(num < 25)
+ }while(num < 25);

@@ -65,7 +65,7 @@ class Movilidad{
 }
 
 class Auto extends Movilidad {
-    constructor(marca, color, año, estado){
+    constructor(marca, color, año, estado){ //  Herencia 
         super(color, año)
         this.marc = marca;
         this.estad = estado;
